@@ -64,7 +64,6 @@ namespace youtube_downloadergui
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("the file/s will be downloaded in the same location as this program", "location", MessageBoxButtons.OK, MessageBoxIcon.Information);
             MessageBox.Show("it may look like its frozen its probably not", "AAAAAAAAAAAAA", MessageBoxButtons.OK, MessageBoxIcon.Information);
             downloadere();
             //det.Text = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + @"\Downloads\" + tubelink.Text + Convert.ToString(listBox1.SelectedItem);
